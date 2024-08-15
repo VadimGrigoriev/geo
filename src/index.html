@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Timeline</title>
+</head>
+<body>
+    <div class="timeline-container">
+        <!-- Контейнер для отображения постов -->
+        <div class="timeline"></div>
+        
+        <!-- Поле ввода текста для создания поста -->
+        <div class="input-container">
+            <input type="text" class="post-input" placeholder="Введите текст и нажмите Enter...">
+        </div>
+
+        <!-- Модальное окно для предупреждений -->
+        <div class="modal">
+            <div class="modal-content">
+                <span class="close-modal close">&times;</span>
+                <p>Пожалуйста, введите текст!</p>
+                <button class="modal-button">OK</button>
+            </div>
+        </div>
+
+        <!-- Модальное окно для запроса геолокации -->
+        <div class="modal-location">
+            <div class="modal-content">
+                <span class="close-modal-location close">&times;</span>
+                <p>Не удалось получить ваши координаты. Пожалуйста, введите их вручную через запятую (широта, долгота).</p>
+                <input type="text" class="manual-coords" placeholder="Широта, Долгота">
+                <button class="modal-button-location">OK</button>
+            </div>
+        </div>
+    </div>
+    <div class="notification"></div>
+</body>
+</html>

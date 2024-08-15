@@ -1,0 +1,29 @@
+{
+  "extends": "airbnb-base",
+  "env": {
+     "es6": true,
+     "browser": true,
+     "jest": true
+  },
+  "rules": {
+    "no-restricted-syntax": [
+      "error",
+      "LabeledStatement",
+      "WithStatement"
+    ],
+    "class-methods-use-this":"off",
+    "no-plusplus":"off",
+    "max-len":"off",
+    "spaced-comment":"off",
+    "no-unused-vars":"off",
+    "no-multi-spaces":"off",
+    "no-param-reassign":"off",
+    "no-console":"off",
+    "no-trailing-spaces":"off",
+    "prefer-arrow-callback":"off",
+    "no-multiple-empty-lines":"off",
+    "func-names":"off",
+    "no-useless-escape":"off",
+    "no-else-return":"off"
+  }
+}
